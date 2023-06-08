@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFDAEF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+       android:layout_gravity="center"
+        android:src="@drawable/masjidalhakim" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#093B51"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="Masjid Al-Hakim"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Lokasi: Jalan Diponegoro Nomor 10 Kota Padang"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16dp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="338dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Masjid Al-Hakim Padang adalah sebuah masjid bergaya Taj Mahal di tepi Pantai Padang, Kota Padang, Sumatera Barat, Indonesia. Masjid ini mulai dibangun pada awal 2017. Biaya pembangunannya berasal dari seorang donatur, sementara lahannya disediakan oleh Pemerintah Kota Padang seiring penataan Pantai Padang yang dilakukan sejak 2014.
+
+Lahan masjid ini dulunya merupakan area permainan anak dan dipenuhi tenda-tendapedagang kaki lima (PKL). Pada 2016, seorang donatur menyampaikan niatnya untuk membangun masjid di tepi pantai. Berkat pendekatan yang dilakukan pemerintah setempat, PKL bersedia direlokasi ke tempat baru sehingga pembangunan masjid dapat dikerjakan."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</LinearLayout>
